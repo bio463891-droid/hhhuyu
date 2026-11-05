@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "name": "توقعاتي",
+    "slug": "predictions-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0A0E14"
+    },
+    "android": {
+      "package": "com.predictions.app",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#0A0E14"
+      },
+      "permissions": ["android.permission.INTERNET"]
+    },
+    "ios": {
+      "bundleIdentifier": "com.predictions.app",
+      "supportsTablet": false
+    },
+    "plugins": ["expo-font"]
+  }
+}
